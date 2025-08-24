@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="https://www.linkedin.com/in/adnan-hajwani-76640924a/" class="nav__logo">Adnan Hajwani</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item"><button onclick="myFunction()" class="dark-mode-btn">🌙</button></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--===== HOME =====-->
+  <section class="home bd-grid" id="home">
+    <div class="home__data">
+      <h1 class="home__title">
+        Hi,<br>I'am <span class="home__title-color">Adnan</span><br>
+        Final Year<br> BTech CSE
+      </h1>
+      <a href="https://www.linkedin.com/in/adnan-hajwani-76640924a/" class="button">Contact</a>
+    </div>
+
+    <div class="home__social">
+      <a href="https://www.linkedin.com/in/adnan-hajwani-76640924a/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/AdnanHajwani12" class="home__social-icon"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <div class="home__img">
+      <img src="img/about.jpg" alt="Adnan Hajwani" class="responsive-img">
+    </div>
+  </section>
+
+  <!--===== ABOUT =====-->
+  <section class="about section" id="about">
+    <h2 class="section-title">About</h2>
+
+    <div class="about__container bd-grid">
+      <div class="about__img">
+        <img src="img/profile.jpg" alt="Profile Picture" class="responsive-img">
+      </div>
+
+      <div>
+        <h2 class="about__subtitle">I'am Adnan Hajwani</h2>
+        <p class="about__text">
+          Hey There 👋 I am Adnan Hajwani, a Final Year Computer Engineering student (7th Semester) at Pillai College of Engineering.  
+          I have practical experience in <b>Web Development</b> (HTML, CSS, JavaScript, PHP, SQL) and a strong foundation in <b>Data Analytics</b> (Python, Power BI, Excel, SQL).  
+          Currently, I am enhancing my skills in <b>DevOps</b> tools and cloud platforms to prepare for industry-level projects.  
+          Passionate about building scalable, user-friendly, and impactful solutions, I am eager to contribute my skills to real-world challenges and grow as a technology professional.  
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--===== SKILLS =====-->
+  <section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills__container bd-grid">
+      <div>
+        <h2 class="skills__subtitle">Professional Skills</h2>
+        <p class="skills__text">
+          I have worked with modern technologies like <b>HTML, CSS, JavaScript, PHP, PostgreSQL</b> along with <b>Data Analytics tools</b> (Python, SQL, Power BI).  
+          Currently exploring <b>DevOps</b> practices to strengthen deployment and cloud knowledge.  
+        </p>
+
+        <!-- Skill Progress -->
+        <div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxl-html5 skills__icon'></i>
+    <span class="skills__name">HTML5</span>
+  </div>
+  <div class="skills__bar skills__html"></div>
+  <span class="skills__percentage">95%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxl-css3 skills__icon'></i>
+    <span class="skills__name">CSS3</span>
+  </div>
+  <div class="skills__bar skills__css"></div>
+  <span class="skills__percentage">85%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxl-javascript skills__icon'></i>
+    <span class="skills__name">JavaScript</span>
+  </div>
+  <div class="skills__bar skills__js"></div>
+  <span class="skills__percentage">70%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxs-paint skills__icon'></i>
+    <span class="skills__name">PHP</span>
+  </div>
+  <div class="skills__bar skills__php"></div>
+  <span class="skills__percentage">75%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxs-data skills__icon'></i>
+    <span class="skills__name">Databases</span>
+  </div>
+  <div class="skills__bar skills__db"></div>
+  <span class="skills__percentage">90%</span>
+</div>
+
+<!-- NEW SKILLS -->
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxl-python skills__icon'></i>
+    <span class="skills__name">Python</span>
+  </div>
+  <div class="skills__bar skills__python"></div>
+  <span class="skills__percentage">80%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bx-data skills__icon'></i>
+    <span class="skills__name">SQL</span>
+  </div>
+  <div class="skills__bar skills__sql"></div>
+  <span class="skills__percentage">85%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxs-bar-chart-alt-2 skills__icon'></i>
+    <span class="skills__name">Power BI / Excel</span>
+  </div>
+  <div class="skills__bar skills__bi"></div>
+  <span class="skills__percentage">75%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxl-docker skills__icon'></i>
+    <span class="skills__name">Docker</span>
+  </div>
+  <div class="skills__bar skills__docker"></div>
+  <span class="skills__percentage">60%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bxl-git skills__icon'></i>
+    <span class="skills__name">Git & GitHub</span>
+  </div>
+  <div class="skills__bar skills__git"></div>
+  <span class="skills__percentage">85%</span>
+</div>
+
+<div class="skills__data">
+  <div class="skills__names">
+    <i class='bx bx-terminal skills__icon'></i>
+    <span class="skills__name">Linux</span>
+  </div>
+  <div class="skills__bar skills__linux"></div>
+  <span class="skills__percentage">70%</span>
+</div>
+
+<!-- ------------------------------------------------------------- -->
+
+      </div>
+
+      <div>
+        <img src="img/work3.jpg" alt="Skills Illustration" class="skills__img responsive-img">
+      </div>
+    </div>
+  </section>
+
+  <!--===== WORK =====-->
+  <section class="work section" id="work">
+    <h2 class="section-title">Mini-Projects</h2>
+
+    <div class="work__container bd-grid">
+      <a href="https://github.com/AdnanHajwani12/Landing_page" class="work__img"><img src="img/1ST.jpg" alt="Landing Page Project"></a>
+      <a href="https://github.com/AdnanHajwani12/BMI-Calculator" class="work__img"><img src="img/work2.jpg" alt="BMI Calculator Project"></a>
+      <a href="https://github.com/AdnanHajwani12/Portfolio" class="work__img"><img src="img/work3.jpg" alt="Portfolio Project"></a>
+      <a href="https://github.com/AdnanHajwani12/ExpenseTracker" class="work__img"><img src="img/2nd.png" alt="Expense Tracker Project"></a>
+      <a href="https://github.com/AdnanHajwani12/gym-management-system" class="work__img"><img src="img/th.jpeg" alt="Gym Management System"></a>
+    </div>
+  </section>
+
+  <!--===== CONTACT =====-->
+  <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+      <form action="" class="contact__form">
+        <input type="text" placeholder="Name" class="contact__input">
+        <input type="email" placeholder="Email" class="contact__input">
+        <textarea cols="0" rows="10" class="contact__input" placeholder="Message"></textarea>
+        <button type="submit" class="contact__button button">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Adnan</p>
+    <p class="footer__copy">&#169; All rights reserved</p>
+  </footer>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="js/main.js"></script>
+</body>
+</html>
