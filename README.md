@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing my **skills, projects, and expe
 It is built using **HTML, CSS, and JavaScript** and hosted on **GitHub Pages**.
 
 ## 🚀 Live Demo
-👉 [Click Here to Visit](https://<your-username>.github.io/<repo-name>/)
+👉 https://adnanhajwani12.github.io/Portfolio/
 
 ## 📌 Features
 - Responsive design for mobile, tablet, and desktop
@@ -20,9 +20,6 @@ It is built using **HTML, CSS, and JavaScript** and hosted on **GitHub Pages**.
 - **CSS3**
 - **JavaScript**
 - **GitHub Pages** (for hosting)
-
-## 📸 Preview
-(Add a screenshot of your homepage here later, e.g. `![Portfolio Screenshot](screenshot.png)`)
 
 ## 📬 Contact
 If you’d like to connect, feel free to reach out:  
